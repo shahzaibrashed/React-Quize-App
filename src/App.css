@@ -1,0 +1,84 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body{
+  text-align: center;
+  background-color: white;
+}
+
+.score-section {
+display: flex;
+justify-content: center;
+margin-top: 10%;
+}
+.score-main{
+ background-color: white;
+  padding-top: 20px;
+  height: 330px;
+  width: 260px;
+  border: 2px solid black white;
+  font-size: 24px;
+  align-items: center;
+  border-radius: 20px;
+  color: black;
+}
+hr{
+  margin: 10px;
+}
+.question-section {
+  width: 100%;
+  position: relative;
+}
+.question-count {
+  font-size: 30px;
+margin-top: 20px;
+}
+span{
+  color: red;
+  font-size: 30px;
+}
+b{
+  color: green;
+  font-size: 30px;
+}
+.question-text {
+margin-top: 30px;
+}
+.answer-section {
+  margin-top: 20px;
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+}
+.btn {
+  border: none;
+  width: 280px;
+  height: 50px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #252d4a;
+  border-radius: 15px;
+  padding: 5px;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.btn:hover {
+  background-color: #555e7d;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn svg {
+  margin-right: 5px;
+}
+.skip-back-Btn{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
